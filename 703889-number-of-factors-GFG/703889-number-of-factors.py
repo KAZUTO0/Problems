@@ -1,0 +1,11 @@
+class Solution:
+    def countFactors (self, n):
+        c=1
+        for i in range(1, (n//2)+1):
+            if n%i==0:
+                c+=1
+        return c
+
+# Synced seamlessly with LeetHub Pro
+# Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+# Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
