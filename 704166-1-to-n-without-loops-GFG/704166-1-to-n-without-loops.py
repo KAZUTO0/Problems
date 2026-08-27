@@ -1,0 +1,8 @@
+class Solution:
+    def printTillN(self, n):
+    	for i in range(1, n+1):
+    	    print(i, end=" ")
+
+# Synced seamlessly with LeetHub Pro
+# Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+# Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
